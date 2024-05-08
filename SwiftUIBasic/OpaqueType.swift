@@ -44,6 +44,7 @@ struct Factory {
     func makeProduct() -> some Product {
         return Macbook(productId: "맥북 아이디!")
     }
+    
 }
 
 
