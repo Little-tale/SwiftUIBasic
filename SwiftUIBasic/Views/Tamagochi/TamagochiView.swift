@@ -9,38 +9,26 @@ import SwiftUI
 
 struct TamagochiView: View {
     
-    @State
-    var foodText: String = "밥주세용"
-    
-    @State
-    var waterText: String = "물이라도."
-    
-    @State
-    var riceCount: Int = 0
-    
-    @State
-    var waterCount: Int = 0
+    @StateObject private
+    var viewModel = TamagochiViewModel()
     
     var body: some View {
         VStack(spacing: 20) {
             
             TitleView()
                 .padding(.vertical, 20)
-            HorizenInfoView(riceCount: $riceCount, waterCount: $waterCount)
             
-            TamagochiTextFieldButtonSet(foodText: $foodText, action: {
-                waterCount += 1
-            })
-            .padding(.horizontal, 20)
+            HorizenInfoView(riceCount: $viewModel.riceCount, waterCount: $viewModel.waterCount)
             
-            TamagochiTextFieldButtonSet(foodText: $waterText) {
-                riceCount += 1
-            }
-            .padding(.horizontal, 20)
+            TamagochiTextFieldButtonSet(foodText: $viewModel.foodText, action: viewModel.upRice )
+                .padding(.horizontal, 20)
+            
+            TamagochiTextFieldButtonSet(foodText: $viewModel.waterText, action: viewModel.upWater)
+            
+                .padding(.horizontal, 20)
             
             Spacer()
         }
-        
     }
 }
 

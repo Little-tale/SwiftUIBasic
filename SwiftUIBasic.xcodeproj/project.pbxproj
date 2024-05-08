@@ -22,6 +22,7 @@
 		7B80DA322BEBDB9D004D025A /* TamagochiTextFieldButtonSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA312BEBDB9D004D025A /* TamagochiTextFieldButtonSet.swift */; };
 		7B80DA342BEBE163004D025A /* HorizenInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA332BEBE163004D025A /* HorizenInfoView.swift */; };
 		7B80DA362BEBE366004D025A /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA352BEBE366004D025A /* TitleView.swift */; };
+		7B80DA382BEBE6EF004D025A /* TabagochiViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA372BEBE6EF004D025A /* TabagochiViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		7B80DA312BEBDB9D004D025A /* TamagochiTextFieldButtonSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiTextFieldButtonSet.swift; sourceTree = "<group>"; };
 		7B80DA332BEBE163004D025A /* HorizenInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizenInfoView.swift; sourceTree = "<group>"; };
 		7B80DA352BEBE366004D025A /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		7B80DA372BEBE6EF004D025A /* TabagochiViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabagochiViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				7B80DA312BEBDB9D004D025A /* TamagochiTextFieldButtonSet.swift */,
 				7B80DA332BEBE163004D025A /* HorizenInfoView.swift */,
 				7B80DA352BEBE366004D025A /* TitleView.swift */,
+				7B80DA372BEBE6EF004D025A /* TabagochiViewModel.swift */,
 			);
 			path = Tamagochi;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				7B80DA2F2BEBD5FA004D025A /* TamagochiTextField.swift in Sources */,
 				7B80DA2D2BEBD0A0004D025A /* TamagochiButton.swift in Sources */,
 				7B80DA0E2BEB5C4F004D025A /* SwiftUIBasicApp.swift in Sources */,
+				7B80DA382BEBE6EF004D025A /* TabagochiViewModel.swift in Sources */,
 				7B80DA362BEBE366004D025A /* TitleView.swift in Sources */,
 				7B80DA322BEBDB9D004D025A /* TamagochiTextFieldButtonSet.swift in Sources */,
 			);
