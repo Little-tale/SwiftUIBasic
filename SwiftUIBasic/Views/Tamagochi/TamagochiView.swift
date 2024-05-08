@@ -22,20 +22,25 @@ struct TamagochiView: View {
     var waterCount: Int = 0
     
     var body: some View {
-        VStack {
+        VStack(spacing: 20) {
             
+            TitleView()
+                .padding(.vertical, 20)
             HorizenInfoView(riceCount: $riceCount, waterCount: $waterCount)
             
             TamagochiTextFieldButtonSet(foodText: $foodText, action: {
-                print("무언갈 하겠죠?")
+                waterCount += 1
             })
             .padding(.horizontal, 20)
             
             TamagochiTextFieldButtonSet(foodText: $waterText) {
-                print("무언갈 하겠죠?2")
+                riceCount += 1
             }
             .padding(.horizontal, 20)
+            
+            Spacer()
         }
+        
     }
 }
 
