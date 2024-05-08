@@ -14,9 +14,7 @@ struct JHPLIX: View {
     
     var body: some View {
         TabView {
-            VStack{
-                
-            }
+            HorizenJHMovieView()
             .tabItem {
                 Image(systemName: "house")
                 Text("홈")
