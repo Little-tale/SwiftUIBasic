@@ -20,6 +20,7 @@
 		7B80DA2D2BEBD0A0004D025A /* TamagochiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA2C2BEBD0A0004D025A /* TamagochiButton.swift */; };
 		7B80DA2F2BEBD5FA004D025A /* TamagochiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA2E2BEBD5FA004D025A /* TamagochiTextField.swift */; };
 		7B80DA322BEBDB9D004D025A /* TamagochiTextFieldButtonSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA312BEBDB9D004D025A /* TamagochiTextFieldButtonSet.swift */; };
+		7B80DA342BEBE163004D025A /* HorizenInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA332BEBE163004D025A /* HorizenInfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		7B80DA2C2BEBD0A0004D025A /* TamagochiButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiButton.swift; sourceTree = "<group>"; };
 		7B80DA2E2BEBD5FA004D025A /* TamagochiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiTextField.swift; sourceTree = "<group>"; };
 		7B80DA312BEBDB9D004D025A /* TamagochiTextFieldButtonSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiTextFieldButtonSet.swift; sourceTree = "<group>"; };
+		7B80DA332BEBE163004D025A /* HorizenInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizenInfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 				7B80DA2C2BEBD0A0004D025A /* TamagochiButton.swift */,
 				7B80DA2E2BEBD5FA004D025A /* TamagochiTextField.swift */,
 				7B80DA312BEBDB9D004D025A /* TamagochiTextFieldButtonSet.swift */,
+				7B80DA332BEBE163004D025A /* HorizenInfoView.swift */,
 			);
 			path = Tamagochi;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				7B80DA242BEB883D004D025A /* ImageNetwork.swift in Sources */,
 				7B80DA1C2BEB5C5F004D025A /* OpaqueType.swift in Sources */,
 				7B80DA1E2BEB8281004D025A /* JHPLIX.swift in Sources */,
+				7B80DA342BEBE163004D025A /* HorizenInfoView.swift in Sources */,
 				7B80DA2A2BEBD05B004D025A /* TamagochiView.swift in Sources */,
 				7B80DA2F2BEBD5FA004D025A /* TamagochiTextField.swift in Sources */,
 				7B80DA2D2BEBD0A0004D025A /* TamagochiButton.swift in Sources */,
