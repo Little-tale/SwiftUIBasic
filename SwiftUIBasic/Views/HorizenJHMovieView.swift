@@ -31,15 +31,13 @@ struct HorizenJHMovieView: View {
             }, message: {
                 Text(ifError?.errorMessage ?? "엥?")
             })
-            .onAppear { // 이렇게 하니까 하나 하나 기다려야해....
-                Task {
-                    do {
-                        try await asyncGetImage()
-                    } catch let error as NetworkError {
-                        ifError = error
-                    } catch {
-                        ifError = .invalidResponse
-                    }
+            .task {
+                do {
+                    try await asyncGetImage()
+                } catch let error as NetworkError {
+                    ifError = error
+                } catch {
+                    ifError = .invalidResponse
                 }
             }
         }
