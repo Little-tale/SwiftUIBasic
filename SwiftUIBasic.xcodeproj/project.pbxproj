@@ -16,6 +16,8 @@
 		7B80DA212BEB8716004D025A /* HorizenJHMovieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA202BEB8716004D025A /* HorizenJHMovieView.swift */; };
 		7B80DA242BEB883D004D025A /* ImageNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA232BEB883D004D025A /* ImageNetwork.swift */; };
 		7B80DA282BEBCA76004D025A /* ViewModifierAndModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA272BEBCA76004D025A /* ViewModifierAndModifier.swift */; };
+		7B80DA2A2BEBD05B004D025A /* TamagochiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA292BEBD05B004D025A /* TamagochiView.swift */; };
+		7B80DA2D2BEBD0A0004D025A /* TamagochiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA2C2BEBD0A0004D025A /* TamagochiButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		7B80DA202BEB8716004D025A /* HorizenJHMovieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizenJHMovieView.swift; sourceTree = "<group>"; };
 		7B80DA232BEB883D004D025A /* ImageNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageNetwork.swift; sourceTree = "<group>"; };
 		7B80DA272BEBCA76004D025A /* ViewModifierAndModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierAndModifier.swift; sourceTree = "<group>"; };
+		7B80DA292BEBD05B004D025A /* TamagochiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiView.swift; sourceTree = "<group>"; };
+		7B80DA2C2BEBD0A0004D025A /* TamagochiButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,7 @@
 		7B80DA1F2BEB86FD004D025A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				7B80DA2B2BEBD082004D025A /* Tamagochi */,
 				7B80DA202BEB8716004D025A /* HorizenJHMovieView.swift */,
 				7B80DA272BEBCA76004D025A /* ViewModifierAndModifier.swift */,
 			);
@@ -96,6 +101,15 @@
 				7B80DA232BEB883D004D025A /* ImageNetwork.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		7B80DA2B2BEBD082004D025A /* Tamagochi */ = {
+			isa = PBXGroup;
+			children = (
+				7B80DA292BEBD05B004D025A /* TamagochiView.swift */,
+				7B80DA2C2BEBD0A0004D025A /* TamagochiButton.swift */,
+			);
+			path = Tamagochi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,6 +188,8 @@
 				7B80DA242BEB883D004D025A /* ImageNetwork.swift in Sources */,
 				7B80DA1C2BEB5C5F004D025A /* OpaqueType.swift in Sources */,
 				7B80DA1E2BEB8281004D025A /* JHPLIX.swift in Sources */,
+				7B80DA2A2BEBD05B004D025A /* TamagochiView.swift in Sources */,
+				7B80DA2D2BEBD0A0004D025A /* TamagochiButton.swift in Sources */,
 				7B80DA0E2BEB5C4F004D025A /* SwiftUIBasicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
