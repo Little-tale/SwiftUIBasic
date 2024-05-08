@@ -7,13 +7,16 @@
 
 import SwiftUI
 struct TamagochiView: View {
+    @State
+    var foodText: String = "밥주세용"
+    
     var body: some View {
         VStack {
-            HStack(content: {
-                TamagochiButton(title: "밥먹기") {
-                    
-                }
+            
+            TamagochiTextFieldButtonSet(foodText: $foodText, action: {
+                
             })
+            .padding(.horizontal, 20)
         }
     }
 }

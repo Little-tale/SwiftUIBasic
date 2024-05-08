@@ -18,6 +18,8 @@
 		7B80DA282BEBCA76004D025A /* ViewModifierAndModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA272BEBCA76004D025A /* ViewModifierAndModifier.swift */; };
 		7B80DA2A2BEBD05B004D025A /* TamagochiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA292BEBD05B004D025A /* TamagochiView.swift */; };
 		7B80DA2D2BEBD0A0004D025A /* TamagochiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA2C2BEBD0A0004D025A /* TamagochiButton.swift */; };
+		7B80DA2F2BEBD5FA004D025A /* TamagochiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA2E2BEBD5FA004D025A /* TamagochiTextField.swift */; };
+		7B80DA322BEBDB9D004D025A /* TamagochiTextFieldButtonSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B80DA312BEBDB9D004D025A /* TamagochiTextFieldButtonSet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		7B80DA272BEBCA76004D025A /* ViewModifierAndModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierAndModifier.swift; sourceTree = "<group>"; };
 		7B80DA292BEBD05B004D025A /* TamagochiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiView.swift; sourceTree = "<group>"; };
 		7B80DA2C2BEBD0A0004D025A /* TamagochiButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiButton.swift; sourceTree = "<group>"; };
+		7B80DA2E2BEBD5FA004D025A /* TamagochiTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiTextField.swift; sourceTree = "<group>"; };
+		7B80DA312BEBDB9D004D025A /* TamagochiTextFieldButtonSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TamagochiTextFieldButtonSet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +112,8 @@
 			children = (
 				7B80DA292BEBD05B004D025A /* TamagochiView.swift */,
 				7B80DA2C2BEBD0A0004D025A /* TamagochiButton.swift */,
+				7B80DA2E2BEBD5FA004D025A /* TamagochiTextField.swift */,
+				7B80DA312BEBDB9D004D025A /* TamagochiTextFieldButtonSet.swift */,
 			);
 			path = Tamagochi;
 			sourceTree = "<group>";
@@ -189,8 +195,10 @@
 				7B80DA1C2BEB5C5F004D025A /* OpaqueType.swift in Sources */,
 				7B80DA1E2BEB8281004D025A /* JHPLIX.swift in Sources */,
 				7B80DA2A2BEBD05B004D025A /* TamagochiView.swift in Sources */,
+				7B80DA2F2BEBD5FA004D025A /* TamagochiTextField.swift in Sources */,
 				7B80DA2D2BEBD0A0004D025A /* TamagochiButton.swift in Sources */,
 				7B80DA0E2BEB5C4F004D025A /* SwiftUIBasicApp.swift in Sources */,
+				7B80DA322BEBDB9D004D025A /* TamagochiTextFieldButtonSet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

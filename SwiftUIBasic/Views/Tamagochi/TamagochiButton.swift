@@ -28,10 +28,9 @@ struct TamagochiButtonViewModifier: ViewModifier {
             .padding(.all, 10)
             .foregroundStyle(.black)
             .background(
-                Capsule()
-                    .stroke(Color.black, lineWidth: 2)
+                RoundedRectangle(cornerRadius: 10)
+                    .stroke(Color.black, lineWidth: 1)
             )
-            .clipShape(.capsule)
     }
 }
 
